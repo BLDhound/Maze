@@ -3,12 +3,16 @@ Raycasting-Enabled 3D Maze Game
 
 This README file details and instructs how to play a 3D maze game that utilizes raycasting technology. Raycasting gives the game its pseudo-3D look and simulates maze settings for added realism.
 
+# Installation
+`$ git clone https://github.com/BLDhound/Maze.git`
+
+
 # Table of Contents
 - Overview
 - Functions of the Game 
 - Controls
 - Gameplay 
-- Personalization
+- Personalization`
 - Contribution 
 - Synopsis
 
@@ -16,6 +20,13 @@ This README file details and instructs how to play a 3D maze game that utilizes 
 The 3D Maze Game with Raycasting is an old favourite that allows players to utilize first-person perspective to navigate a maze using raycasting technology - pioneered in titles like Wolfenstein 3D - casting rays from each frame back towards them to produce an interactive 3D rendering of each maze segment.
 
 As an introduction to raycasting algorithms, this project serves as a prerequisite to developing more sophisticated 3D games.
+
+# Usage 
+- Execute ./maze to run 
+
+# Compilation
+
+` $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze sdl2-config --cflags sdl2-config --libs;`
 
 # Functions of the Game
 Features include a first-person view, real-time graphics using Raycasting for real-time rendering and procedurally generated mazes with simple wall collision detection as goals and criteria for success - keeping score and clocking - set into action in your 3D maze game:
